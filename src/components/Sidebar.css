@@ -4,6 +4,7 @@
   position: relative;
   padding-top: 4rem;
   transition: all 300ms ease;
+  background-color: var(--green);
 }
 /* logo */
 .bars{
@@ -21,7 +22,7 @@
   height: 4%;
 }
 .logo > span > span {
-  color: var(--pink);
+  color: var(--greenDark);
 }
 
 .logo > img {
@@ -67,7 +68,7 @@
   content: "";
   width: 8px;
   height: 100%;
-  background: var(--pink);
+  background: var(--greenDark);
   margin-right: calc(1rem - 8px);
 }
 
@@ -86,7 +87,7 @@
   .sidebar{
     position: fixed;
     z-index: 9;
-    background: #ffe0e0;
+    background: #07b232;
     width: 55%;
     padding-right: 1rem;
     height: 100%;

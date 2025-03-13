@@ -14,37 +14,37 @@ import { keyboard } from "@testing-library/user-event/dist/keyboard";
 
 // Recent Card Imports
 import img1 from "../imgs/img1.png";
-import img2 from "../imgs/img2.png";
+import img2 from "../imgs/img4.jpg";
 import img3 from "../imgs/img3.png";
 
 // Sidebar Data
 export const SidebarData = [
   {
     icon: UilEstate,
-    heading: "Dashboard",
+    heading: "Painel de controle",
   },
   {
     icon: UilClipboardAlt,
-    heading: "Orders",
+    heading: "Pedidos",
   },
   {
     icon: UilUsersAlt,
-    heading: "Customers",
+    heading: "Clientes",
   },
   {
     icon: UilPackage,
-    heading: 'Products'
+    heading: 'Produtos'
   },
   {
     icon: UilChart,
-    heading: 'Analytics'
+    heading: 'Análises'
   },
 ];
 
 // Analytics Cards Data
 export const cardsData = [
   {
-    title: "Sales",
+    title: "Vendas",
     color: {
       backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
       boxShadow: "0px 10px 20px 0px #e0c6f5",
@@ -54,19 +54,19 @@ export const cardsData = [
     png: UilUsdSquare,
     series: [
       {
-        name: "Sales",
-        data: [31, 40, 28, 51, 42, 109, 100],
+        name: "Vendas",
+        data: [50, 65, 75, 85, 100, 115, 125],
       },
     ],
   },
   {
     title: "Revenue",
     color: {
-      backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
-      boxShadow: "0px 10px 20px 0px #FDC0C7",
+      backGround: "linear-gradient(180deg,rgb(33, 160, 63) 0%,rgb(100, 217, 98) 100%)",
+      boxShadow: "0px 10px 20px 0pxrgb(3, 88, 37)",
     },
-    barValue: 80,
-    value: "14,270",
+    barValue: 50,
+    value: "12,345",
     png: UilMoneyWithdrawal,
     series: [
       {
@@ -79,7 +79,7 @@ export const cardsData = [
     title: "Expenses",
     color: {
       backGround:
-        "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
+        "linear-gradient(rgb(69, 114, 159) -146.42%, rgb(255 202 113) -46.42%)",
       boxShadow: "0px 10px 20px 0px #F9D59B",
     },
     barValue: 60,
@@ -104,9 +104,9 @@ export const UpdatesData = [
   },
   {
     img: img2,
-    name: "James Bond",
-    noti: "has received Samsung gadget for charging battery.",
-    time: "30 minutes ago",
+    name: "Clark kent",
+    noti: "has received a Samsung device for battery charging.",
+    time: "55 minutes ago",
   },
   {
     img: img3,
